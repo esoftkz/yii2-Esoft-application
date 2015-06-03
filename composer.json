@@ -1,0 +1,38 @@
+{
+    "name": "esoftkz/yii2-ECms",
+    "description": "Yii 2 Esoft Cms",
+    "keywords": ["yii2", "Esoft"],
+    "homepage": "http://esoft.kz",
+    "type": "project",
+    "license": "BSD-3-Clause",  
+    "minimum-stability": "dev",
+	"prefer-stable" : true,
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-bootstrap": "*",
+        "yiisoft/yii2-swiftmailer": "*",	
+		"esoftkz/yii2-adminlte-asset": "~2.0@dev",
+		"yiisoft/yii2-imagine": "*",
+		"newerton/yii2-jcrop": "dev-master",
+		"kartik-v/yii2-widget-fileinput": "*",	   
+        "yiisoft/yii2-jui": "~2.0@dev",
+        "esoftkz/yii2-ckeditor": "~1.0@dev",
+		"ercling/yii2-pace": "*"
+    },
+    "require-dev": {
+        "yiisoft/yii2-codeception": "*",
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "*",
+        "yiisoft/yii2-faker": "*"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
